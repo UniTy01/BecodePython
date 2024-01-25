@@ -1,4 +1,6 @@
-age = 42
-divAge = age / 7
-textDiv = age , "divided by 7 equal" , int(divAge)
-print(textDiv)
+def addition (a , b)
+    resultat = a + b
+    return resultat
+
+resultat_final = addition(3, 5)
+print(resultat_final)
